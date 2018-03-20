@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.cal-row {
+  width: 100%;
+  display: inline-block;
+}
+
+.cal-col {
+  width: calc(100% / 7);
+  border: 1px solid rgb(181, 181, 181);
+  height: calc(90vh / 5);
+  display: inline-block;
+}
+
+.cal-heading {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0;
+}
